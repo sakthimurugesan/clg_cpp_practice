@@ -6,6 +6,7 @@ int main(){
     /*
     float higher data type 
     int lower data type
+    modulos operaotr do not  work with float data type
     */
     cout<<z;
 }
