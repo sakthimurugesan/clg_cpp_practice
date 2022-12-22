@@ -14,7 +14,7 @@ int main(){
 
     else if ladder -----------> many choice more than 3
 
-    switch ----------->
+    switch -----------> working with integer or char
     
     
     __________________________________________________________________
