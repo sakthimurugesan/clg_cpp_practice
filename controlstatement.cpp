@@ -32,7 +32,9 @@ int main(){
         break;
     case 2:
         int l,b;
+
         cin>>l>>b;
+        //k
         cout<<l*b;
     default:
     cout<<"Wrong input sorry !!."
