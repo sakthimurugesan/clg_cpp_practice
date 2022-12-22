@@ -25,8 +25,7 @@ int main(){
     switch (choi)
     {
     case 1:
-        float r;
-        const float pi=3.142; // delcaring constant
+        float r; // delcaring constant
         cin>>r;
         cout<<M_PI*r*r;
         break;
@@ -34,11 +33,12 @@ int main(){
         int l,b;
 
         cin>>l>>b;
-        //k
+        
         cout<<l*b;
+        break;
     default:
-    cout<<"Wrong input sorry !!."
-;        break;
+    cout<<"Wrong input sorry !!.";
+    break;
     }
 
         /*

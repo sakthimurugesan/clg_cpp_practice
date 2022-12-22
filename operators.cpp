@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+    int ijk=125;
     int x=25;
     float y=10,z=x/y; //implicit type convertion
     /*
