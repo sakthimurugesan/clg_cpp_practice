@@ -5,8 +5,17 @@ int main(){
 
    /*
         write a program to read a choice from the user
+
         if choice is 1 read radius of circle and find area of circle 
+        
         if choice is 2 read l,b of rectangle find its area
+
+
+        const value remains till end of the program
+
+        M_PI stores the value of pi in c++ 
+
+        #include <bits/stdc++.h> include all header file
 
    */
 
@@ -17,8 +26,9 @@ int main(){
     {
     case 1:
         float r;
+        const float pi=3.142; // delcaring constant
         cin>>r;
-        cout<<3.14*r*r;
+        cout<<M_PI*r*r;
         break;
     case 2:
         int l,b;

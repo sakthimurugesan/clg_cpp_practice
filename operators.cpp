@@ -115,7 +115,5 @@ two types of decreament
 
 */
 
-int k=10;
-cout<<"\n"<<k++<<endl<<k;
-string name;
+
 }
