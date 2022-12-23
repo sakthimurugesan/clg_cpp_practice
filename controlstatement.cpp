@@ -55,6 +55,39 @@ int main(){
 
     switch -----------> working with integer or char
 
+    switch(expression){
+        case label1:
+            statements;
+            break;
+        case label2:
+            statements;
+            break;
+        case label3:
+            statements;
+            break;
+        default:
+            statement;
+            break;
+    }
+
+
+
+    
+    switch(expression){
+        case label1:
+            case label2:
+                statements;
+                break;
+        case label3:
+            case label4:
+                statements;
+                break;
+        default:
+            statement;
+            break;
+    }
+
+
     __________________________________________________________________
     
     */
