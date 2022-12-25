@@ -170,6 +170,32 @@ else{
 }
 */
 
+int n=6,out=1;
+
+for(int i=1;i<=n;i++){
+    if(i%2==0){
+        out+=i;
+    }
+    for(int j=1;j<=2*i-1;j++){
+        if(j%2==0){
+            cout<<"*";
+        }
+        else{
+            cout<<out;
+            if(i%2==0 && (j+1)/2!=i){
+                out-=1;
+            }
+            else if(i%2!=0 && (j+1)/2!=i){
+                out++;
+            }
+        }
+    }
+    if(i%2==0){
+        out+=i;
+    }
+    cout<<endl;
+}
+
 }
     
 
